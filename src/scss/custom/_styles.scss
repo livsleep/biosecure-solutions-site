@@ -71,3 +71,15 @@
     color: $dark-blue !important;
     background-color: $bright-yellow !important;
 }
+
+.tight-paragraph {
+    margin-bottom: 0.5rem;
+    text-indent: 1em;
+}
+
+.navbar-style {
+    background-color: rgba(17, 41, 107, 0.6) !important; 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

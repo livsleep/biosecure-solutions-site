@@ -14,3 +14,9 @@ darker yellow #ffcb05
 [form submit](https://formsubmit.co/?utm_source=formsubmit.co&utm_medium=site%20link&utm_campaign=submission%20page)
 [ref link](https://sadiesprocleaning.com/)
 [ref link](https://www.cendecon.com/)
+
+## to do
+- more images for service page
+- service images on home page
+- add headshots and bios to about page
+- form submit change to work email

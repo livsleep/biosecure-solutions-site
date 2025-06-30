@@ -16,7 +16,4 @@ darker yellow #ffcb05
 [ref link](https://www.cendecon.com/)
 
 ## to do
-- more images for service page
-- service images on home page
 - add headshots and bios to about page
-- form submit change to work email

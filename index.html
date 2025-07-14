@@ -28,6 +28,54 @@
       #contact {
         scroll-margin-top: 110px;
       }
+
+      .why-card {
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        padding: 30px;
+      }
+
+      .why-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        flex: 1;
+        position: relative;
+        padding: 15px;
+      }
+
+      .why-item:not(:last-child)::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 25%;
+        height: 50%;
+        width: 1px;
+        background-color: #ddd;
+      }
+
+      .why-icon {
+        font-size: 24px;
+        color: #3b71ca; /* MDB primary color */
+        margin-bottom: 8px;
+      }
+
+      @media (max-width: 768px) {
+        .why-card {
+          flex-direction: column !important;
+          gap: 20px;
+        }
+
+        .why-item:not(:last-child)::after {
+          display: none;
+        }
+
+        .why-item {
+          border-bottom: 1px solid #eee;
+        }
+      }
     </style>
 
     <!-- Navbar -->
@@ -207,6 +255,46 @@
       <!-- Services: Content -->
 
       <hr class="my-5" />
+
+      <!-- why choose us -->
+      <section class="py-5">
+        <div class="container">
+          <h1 class="text-center dark-blue-text mb-4"><strong>Why Choose Us</strong></h1>
+          
+          <div class="card why-card d-flex flex-row flex-wrap">
+
+            <div class="why-item">
+              <div class="why-icon">🚗</div>
+              <div class="why-text">Unmarked Vehicles<br>for Privacy</div>
+            </div>
+
+            <div class="why-item">
+              <div class="why-icon">✅</div>
+              <div class="why-text">Licensed, Insured<br>& OSHA Certified</div>
+            </div>
+
+            <div class="why-item">
+              <div class="why-icon">📆</div>
+              <div class="why-text">10+ Years of<br>Experience</div>
+            </div>
+
+            <div class="why-item">
+              <div class="why-icon">💙</div>
+              <div class="why-text">Compassionate,<br>Discreet Service</div>
+            </div>
+
+            <div class="why-item">
+              <div class="why-icon">⏰</div>
+              <div class="why-text">Available<br>24/7</div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- why choose us -->
+
+      <hr class="my-5" />
+
 
       <!--Contact Form: Content-->
       <section class="mb-5" id="contact">
